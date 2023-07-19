@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
 })
 
 function updatePosts(){
-    // const url = 'http://192.168.1.103:3000/api/all';
-    fetch("http://192.168.1.103:3000/api/all").then(res => {
+    const url = "http://192.168.1.103:3000/api/all";
+    fetch(url).then(res => {
         return res.json();
     }).then(json =>{
         let postElements = ' ';
@@ -34,6 +34,7 @@ function updatePosts(){
 function newPost(){
     let title = document.getElementById('title').value;
     let description = document.getElementById('desc').value;
+    const url = "http://192.168.1.103:3000/api/new";
 
     let post = {title, description};
 
@@ -42,7 +43,7 @@ function newPost(){
                    body: JSON.stringify(post)
     };
 
-    fetch("http://192.168.1.103:3000/api/new", options).then(res => {
+    fetch(url, options).then(res => {
         console.log(res);
         updatePosts();
         document.getElementById('title').value = '';
