@@ -5,7 +5,6 @@
 <details>
 <summary>Clique para expandir</summary>
 ◽ <a href="#pre-requisitos">Pré-requisitos</a> <br>
-◽ <a href="#instalacao">Instalação</a> <br>
 ◽ <a href="#tecnologias">Tecnologias</a> <br>
 ◽ <a href="#sobre">Sobre</a> <br>
 </details>
@@ -13,9 +12,6 @@
 <h3 id="pre-requisitos">📋 Pré-requisitos</h3>
 
 [![image](https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://www.google.pt/intl/pt-PT/chrome/)
-
-<h3 id="acessar-projeto"><a href="https://majestic-starship-0d1824.netlify.app/">📁 Acessar Projeto<a/></h3>
-
 
 <h3 id="instalacao">🛠️ Instalação</h3>
 
