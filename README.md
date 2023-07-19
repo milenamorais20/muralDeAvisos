@@ -33,3 +33,10 @@ Não há necessidade de instalação.
 ✅ Esse projeto foi feito usando os conhecimentos básicos das linguagens: HTML, CSS e JAVASCRIPT; mais a ferramenta NODE.JS <br>
 ✅ Projeto responsivo.  <br>
 ✅ O código cria um mural que comporta as informações "título" e "descrição" e as salva. <br>
+✅ Para conseguir acessar o projeto da sua máquina, após fazer o clone e ter acesso ao código, é preciso instalar os seguintes packeges do node:
+  -express;
+  -express.Router();
+  -body-parser;
+  -cors;
+  -path;
+✅ Também é necessário que altere os valores das consts "url" da seguinte maneira: IP_DA_SUA_MAQUINA:3000/api/PASTA_ALL_OU_NEW
