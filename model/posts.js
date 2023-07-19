@@ -33,3 +33,4 @@ function savePost(id){
 
     })
 }
+savePost()
